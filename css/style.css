@@ -1,0 +1,355 @@
+/*
+    This template is created by IZGrid
+*/
+
+/*-------*/
+/* FONTS */
+/*-------*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fredoka+One|PT+Sans');
+
+body {
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    background: #252422;
+    height: auto;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.1), -30px 0 40px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------*/
+/* LANDING AREA */
+/*--------------*/
+#profile-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 13rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+#landing {
+    background: #a02c2c;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#landing-text h2 {
+    color: #ccc;
+}
+
+.btn {
+    padding: .3rem 1.2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ccc;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    color: #333;
+    background: #ccc;
+    border: 1px solid #ccc;
+}
+
+ul#social-icons {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+ul#social-icons li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+ul#social-icons li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+ul#social-icons li a:hover {
+    color: #252422;
+}
+
+#landing-image {
+    background: url('https://source.unsplash.com/IVaKksEZmZA') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+/*-----------------*/
+/* NAVIGATION MENU */
+/*-----------------*/
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    padding: .8rem .1rem;
+    transition: .4s;
+}
+  
+nav li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 0 1.5rem;
+}
+
+nav li:hover {
+    background: #a02c2c;
+}
+
+/*---------*/
+/* HEADERS */
+/*---------*/
+.header {
+    padding: 1.8rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.header h2 {
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/*---------------*/
+/* ABOUT SECTION */
+/*---------------*/
+#paragraph p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(97, 96, 96);
+    padding: 2rem;
+    text-align: center;
+}
+
+/*--------------*/
+/* WORK SECTION */
+/*--------------*/
+#images {
+    margin: 0;
+    font-size: 0;
+    display: -ms-Flexbox;
+    -ms-Flexbox-wrap: wrap;
+    -ms-Flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+  
+#images .image {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 300px;
+    margin: 0;
+}
+  
+#images .image img {
+    width: 100%;
+    height: auto;
+}
+
+#images .image img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*----------------*/
+/* FOOTER SECTION */
+/*----------------*/
+#footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    background: #a02c2c;
+    color: #252422;
+}
+
+#footer h3 {
+    font-size: 2.5rem;
+    margin: 0 0 3rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea {
+    width: 18rem;
+    height: 3rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #252422;
+    margin-bottom: .2rem;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+textarea {
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+::placeholder {
+    color: #252422;
+}
+
+#send {
+    padding: .5rem 2rem;
+    border: 1px #ccc solid;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 0px;
+    text-decoration: none;
+    color: #ccc;
+    background: #252422;
+    border: 1px solid #252422;
+    transition: background 500ms ease;
+}
+
+#right p {
+    font-size: 16px;
+}
+
+/*---------------------*/
+/* MAIN FOOTER SECTION */
+/*---------------------*/
+#main-footer {
+    text-align: center;
+    color: #ccc;
+}
+
+#up {
+    float: right;
+    padding: .2rem .7rem;
+    margin: 0 .6rem .6rem 0;
+    background-color: #a02c2c;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #252422;
+    cursor: pointer;
+}
+
+/* SCREEN SIZES 500px AND UP */
+@media (min-width: 500px)
+{
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text,
+    #landing-image {
+        height: 100vh;
+    }
+
+    nav li {
+        padding: .8rem .3rem;
+    }
+}
+
+/* SCREEN SIZES 700px AND UP */
+@media (min-width: 768px)
+{
+    .btn {
+        padding: 1rem 3rem;
+    }
+
+    nav li {
+        padding: .8rem .6rem;
+    }
+
+    .header {
+        text-align: start;
+    }
+
+    .footer-content{
+        flex-direction: row;
+        align-items: center;
+        padding: 0 5rem;
+    }
+
+    #left, #right {
+        flex: 1;
+        align-self: center;
+    }
+
+    #send {
+        display: inline-block;
+        width: 14.5rem;
+    }
+
+    #up {
+        margin: 0 1.2rem 1.2rem 0;
+    }    
+    
+}
