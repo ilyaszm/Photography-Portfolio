@@ -11,5 +11,14 @@
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaszm/Photography-Portfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ilyaszm/Photography-Portfolio/issues"
   }
 }
