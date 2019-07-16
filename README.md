@@ -67,5 +67,3 @@ If you like the template, please give it a star. It will means alot for me :)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2019 © <a href="https://izem.netlify.com" target="_blank">IZEM</a>.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bfe49c54-d252-4d1e-8e14-e06ca1406e75/deploy-status)](https://app.netlify.com/sites/laraphotography/deploys)
