@@ -66,4 +66,4 @@ If you like the template, please give it a star. It will means alot for me :)
 ## License
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="https://izem.netlify.com" target="_blank">IZEM</a>.
+- Copyright 2019 © <a href="https://izem.netlify.com" target="_blank">IZEMSPOT</a>.
